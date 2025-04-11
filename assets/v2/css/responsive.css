@@ -1,0 +1,967 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /**====================
+   Home Page
+========================
+**/
+  h1 {
+    font-size: 22px;
+    line-height: 40px; }
+
+  .ic-p-tb-80 {
+    padding: 37px 0px 40px 0px; }
+
+  .ic-mb-25 {
+    margin-bottom: 20px; }
+
+  .ic-mb-40 {
+    margin-bottom: 20px; }
+
+  .ic-heading h1 br {
+    display: none; }
+
+  .ic-mt-40 {
+    margin-top: 20px; }
+
+  .ic-mb-60 {
+    margin-bottom: 30px; }
+
+  .ic-pb-80 {
+    padding-bottom: 40px; }
+
+  .ic-pt-80 {
+    padding-top: 40px; }
+
+  .ic-mt-35 {
+    margin-top: 18px; }
+
+  .ic-mb-33 {
+    margin-bottom: 25px; }
+
+  .ic-btn1 {
+    height: 45px;
+    line-height: 43px;
+    font-size: 13px; }
+
+  .ic-btn2 {
+    width: 160px;
+    height: 45px;
+    line-height: 43px;
+    font-size: 13px; }
+
+  header {
+    padding: 12px 0px; }
+
+  .m-logo {
+    display: block; }
+    .m-logo img {
+      max-width: 80%;
+      margin: auto;
+      display: block; }
+
+  .ic-header-top {
+    display: none; }
+
+  .ic-top-header-logo {
+    display: none; }
+
+  .ic-header-top-contact {
+    text-align: center;
+    display: none; }
+    .ic-header-top-contact a {
+      padding: 0px;
+      display: block; }
+      .ic-header-top-contact a:first-child::after {
+        display: none;
+        background: #eeeeee; }
+
+  .ic-mobile-head-top-contact {
+    display: flex; }
+    .ic-mobile-head-top-contact a:last-child i {
+      margin-right: 0px; }
+    .ic-mobile-head-top-contact span {
+      display: none; }
+    .ic-mobile-head-top-contact i {
+      color: #ffffff;
+      font-size: 18px;
+      margin-right: 15px; }
+
+  .ic-navbar .navbar-toggler {
+    padding: 0px; }
+    .ic-navbar .navbar-toggler i {
+      font-size: 30px;
+      color: #fff; }
+  .ic-navbar .navbar-collapse {
+    margin: 25px 0px 15px 0px; }
+  .ic-navbar li:hover a {
+    background: #00539c; }
+  .ic-navbar li a {
+    padding: 8px 5px !important;
+    border-bottom: 1px solid rgba(240, 0, 20, 0.102); }
+
+  .ic-navbar-search-icon {
+    margin-top: 8px; }
+
+  .ic-nav-search-box {
+    position: static;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    padding: 12px;
+    margin-top: 20px; }
+
+  .ic-menu-search-warper {
+    display: block; }
+
+  .ic-navbar-search-icon a {
+    display: none; }
+
+  .ic-header-top-social {
+    text-align: center;
+    margin-top: 10px; }
+
+  .ic-banner-carousel .owl-dots .owl-dot {
+    display: none; }
+
+  .ic-banner-content {
+    padding: 80px 0px;
+    text-align: center; }
+    .ic-banner-content h1 {
+      font-size: 32px;
+      line-height: 46px; }
+    .ic-banner-content a {
+      margin: auto;
+      margin-top: 18px; }
+    .ic-banner-content p {
+      width: 100%;
+      display: none; }
+    .ic-banner-content .ic-heading-top-p {
+      display: block; }
+
+  .ic-banner-bottom-counter {
+    padding: 10px 0px 30px 0px; }
+
+  .ic-counter-warper .content4 {
+    border-bottom: none; }
+
+  .ic-counter-content {
+    padding: 0px;
+    border-bottom: 1px solid #f0ebeb;
+    justify-content: unset;
+    margin-top: 20px;
+    display: block;
+    text-align: center; }
+    .ic-counter-content::before {
+      display: none; }
+    .ic-counter-content .content {
+      margin-left: 10px; }
+      .ic-counter-content .content h1 {
+        margin-bottom: 0px;
+        font-size: 20px; }
+      .ic-counter-content .content p {
+        font-size: 14px;
+        line-height: 22px; }
+    .ic-counter-content .content span {
+      font-size: 20px;
+      line-height: 30px; }
+    .ic-counter-content .icon {
+      justify-content: center; }
+      .ic-counter-content .icon i {
+        font-size: 32px; }
+
+  .ic-about-right-warper {
+    margin-top: 40px; }
+
+  .ic-why-work-heading {
+    margin-bottom: 50px; }
+
+  .ic-why-choose-heading {
+    margin-top: 40px; }
+
+  .ic-news-content .content {
+    width: 100%;
+    left: 0; }
+
+  .ic-success-career-heading {
+    padding-top: 0px;
+    display: none; }
+
+  .ic-success-career-heading.ic-mobile {
+    display: block; }
+
+  .ic-success-career-main {
+    padding-bottom: 0px; }
+    .ic-success-career-main .ic-success-career-left {
+      position: static; }
+
+  .ic-success-career-body-right {
+    display: none; }
+
+  .ic-success-career-body-right-m {
+    display: block; }
+
+  .ic-success-area {
+    height: auto;
+    padding: 20px 0px 40px 0px; }
+
+  .ic-news-content .content {
+    padding: 20px; }
+    .ic-news-content .content p {
+      font-size: 16px;
+      line-height: 22px; }
+
+  .ic-news-content .content .author span {
+    font-size: 15px; }
+
+  .ic-news-content:hover .content {
+    bottom: 15px; }
+
+  .ic-news-content {
+    margin-bottom: 10px; }
+
+  .ic-footer-middle {
+    margin-top: 35px; }
+
+  .ic-footer-useful-link {
+    margin-top: 25px; }
+
+  .ic-footer-copyright {
+    text-align: center; }
+
+  .ic-fotter-bottom-right {
+    margin-bottom: 10px;
+    text-align: center; }
+
+  .ic-fotter-bottom-right ul li a {
+    padding: 0px 10px; }
+
+    /**====================
+   About Page
+========================
+**/
+  .ic-breadcumb-area {
+    padding: 80px 0px; }
+    .ic-breadcumb-area .content {
+      display: block; }
+      .ic-breadcumb-area .content h1 a {
+        font-size: 28px; }
+
+  .ic-about-service-left {
+    margin-top: 30px; }
+
+  .ic-about-service-left .ic-heading {
+    margin-bottom: 30px; }
+
+  .ic-about-service-right .ic-total-solve-case {
+    padding: 10px 0px 25px 0px;
+    top: unset;
+    bottom: 0;
+    transform: translateY(0);
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%); }
+    .ic-about-service-right .ic-total-solve-case h1 {
+      font-size: 44px;
+      line-height: 55px;
+      margin-bottom: 0px; }
+
+  .ic-team-contents .item {
+    margin: auto;
+    margin-bottom: 90px;
+    max-width: 300px; }
+
+  .ic-team-details-content {
+    padding-top: 10px; }
+
+    /**====================
+   Error Page
+========================
+**/
+  .ic-error-area {
+    padding: 40px 0px;
+    padding-top: 0px; }
+
+  .ic-error-area-content {
+    text-align: center; }
+
+  .ic-error-title h1 {
+    font-size: 140px; }
+
+  .ic-error-main-content h1 {
+    font-size: 140px; }
+  .ic-error-main-content h3 {
+    margin-bottom: 10px;
+    font-size: 20px; }
+  .ic-error-main-content h4 {
+    font-size: 34px; }
+  .ic-error-main-content p {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .ic-error-main-content p {
+    width: 100%; }
+  .ic-error-main-content .ic-error-btn {
+    justify-content: center; }
+
+  .ic-error-left-image {
+    margin-top: 30px; }
+    .ic-error-left-image img {
+      margin: auto; }
+
+    /**====================
+   Free consultation Page
+========================
+**/
+  .ic-free-consultation-area {
+    padding: 40px 0px 0px 0px; }
+
+  .ic-free-consultation-image {
+    position: static;
+    margin-top: 30px; }
+    .ic-free-consultation-image img {
+      width: 100%; }
+
+    /**====================
+   Attorneys consultation Page
+========================
+**/
+  .ic-attorneys-load-more {
+    margin-top: 20px; }
+
+    /**====================
+   attorneys details Page
+========================
+**/
+  .ic-attorneys-details-area {
+    padding: 40px 0px; }
+    .ic-attorneys-details-area .ic-education-courtadmission {
+      margin-bottom: 0px; }
+
+  .ic-attorneys-user-profile .right {
+    padding: 20px 20px 20px 20px; }
+    .ic-attorneys-user-profile .right .contact a {
+      display: block;
+      margin-bottom: 5px; }
+  .ic-attorneys-user-profile .left .thumbnil img {
+    width: 100%; }
+
+  .ic-user-details-content .ic-education-courtadmission .ic-education-list {
+    display: block; }
+
+  .ic-user-details-content .ic-education-courtadmission .ic-education-list ul {
+    margin-right: 0px; }
+
+  .ic-practice-area {
+    padding: 40px 0px 0px 0px; }
+    .ic-practice-area .row.ic-mb-10 {
+      margin-bottom: 0px; }
+
+  .ic-practice-area:last-child .item {
+    margin-bottom: 0px; }
+  .ic-practice-area .item {
+    margin-bottom: 20px; }
+
+  .ic-leader-membership {
+    margin-bottom: 40px; }
+
+  .ic-contact-area {
+    padding: 40px 0px; }
+
+    /**====================
+   Contact  Page
+========================
+**/
+  .ic-contact-address-info .item {
+    margin-bottom: 20px; }
+    .ic-contact-address-info .item .icon i {
+      font-size: 35px; }
+
+  .ic-contact-form {
+    margin-top: 20px; }
+    .ic-contact-form .title {
+      margin-bottom: 30px; }
+      .ic-contact-form .title h4 {
+        margin-bottom: 8px; }
+      .ic-contact-form .title p {
+        width: 100%; }
+
+  .ic-map-area iframe {
+    height: 350px; }
+
+    /**====================
+   Faq  Page
+========================
+**/
+  .ic-faq-area {
+    padding: 40px 0px; }
+
+  .ic-faq-left {
+    margin-bottom: 40px; }
+
+    /**====================
+   News  Page
+========================
+**/
+  .ic-news-right {
+    margin-top: 40px; }
+
+  .ic-news-area-content .ic-news-content .content {
+    width: 100%;
+    left: 0px; }
+
+    /**====================
+   News Details  Page
+========================
+**/
+  .ic-blog-details-area .ic-thumbnil-title .title {
+    padding: 10px; }
+  .ic-blog-details-area .ic-post-share {
+    display: block; }
+    .ic-blog-details-area .ic-post-share h4 {
+      margin-bottom: 15px; }
+    .ic-blog-details-area .ic-post-share ul li {
+      margin-right: 12px; }
+  .ic-blog-details-area .ic-post-tags {
+    display: block; }
+    .ic-blog-details-area .ic-post-tags h4 {
+      margin-bottom: 15px; }
+  .ic-blog-details-area .ic-post-comment .ic-comment-box {
+    padding: 20px; }
+    .ic-blog-details-area .ic-post-comment .ic-comment-box .title-date {
+      display: block; }
+      .ic-blog-details-area .ic-post-comment .ic-comment-box .title-date h6 {
+        margin-bottom: 2px; }
+    .ic-blog-details-area .ic-post-comment .ic-comment-box .left {
+      flex: 0 0 28%; }
+      .ic-blog-details-area .ic-post-comment .ic-comment-box .left img {
+        width: 60px;
+        height: 60px; }
+    .ic-blog-details-area .ic-post-comment .ic-comment-box .replay-field {
+      width: 100%; }
+
+  .ic-widget-area .tags li a {
+    margin-bottom: 5px; } }
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /**====================
+   Home Page
+========================
+**/
+  .ic-header-top {
+    display: none; }
+
+  header {
+    padding: 12px 0px; }
+
+  .m-logo {
+    display: block; }
+    .m-logo img {
+      width: 90%;
+      display: block;
+      margin: auto; }
+
+  .ic-top-header-logo {
+    display: none; }
+
+  .col-sm-d-none {
+    display: none; }
+
+  .ic-header-top-contact a {
+    padding: 0px;
+    display: block; }
+    .ic-header-top-contact a:first-child::after {
+      display: none;
+      background: #eeeeee; }
+
+  .ic-mobile-head-top-contact {
+    display: flex; }
+    .ic-mobile-head-top-contact a:last-child i {
+      margin-right: 0px; }
+    .ic-mobile-head-top-contact span {
+      display: none; }
+    .ic-mobile-head-top-contact i {
+      color: #ffffff;
+      font-size: 18px;
+      margin-right: 15px; }
+
+  .ic-navbar .navbar-toggler {
+    padding: 0px; }
+    .ic-navbar .navbar-toggler i {
+      font-size: 30px;
+      color: #fff; }
+  .ic-navbar .navbar-collapse {
+    margin: 25px 0px 15px 0px; }
+  .ic-navbar li:hover a {
+    background: #00539c; }
+  .ic-navbar li a {
+    padding: 8px 5px !important;
+    border-bottom: 1px solid rgba(240, 0, 20, 0.102); }
+
+  .ic-navbar-search-icon {
+    margin-top: 8px; }
+
+  .ic-nav-search-box {
+    position: static;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    padding: 12px;
+    margin-top: 20px; }
+
+  .ic-menu-search-warper {
+    display: block; }
+
+  .ic-navbar-search-icon a {
+    display: none; }
+
+  .ic-banner-content {
+    padding: 100px 0px; }
+    .ic-banner-content h1 {
+      font-size: 45px;
+      line-height: 55px; }
+
+  .ic-banner-carousel .owl-dots .owl-dot {
+    display: none; }
+
+  .ic-counter-content {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px; }
+    .ic-counter-content.content3 {
+      margin-bottom: 20px; }
+    .ic-counter-content.content4 {
+      margin-bottom: 20px; }
+
+  .ic-about-right-warper {
+    margin-top: 40px; }
+
+  .ic-about-right {
+    width: 48%;
+    float: left;
+    padding: 20px 20px; }
+
+  .ic-about-right-warper:first-child .ic-about-right {
+    margin-right: 10px; }
+
+  .ic-why-work-content {
+    padding: 20px; }
+    .ic-why-work-content .icon {
+      margin-bottom: 18px; }
+    .ic-why-work-content .ic-mb-30 {
+      margin-bottom: 15px; }
+
+  .ic-why-choose-heading {
+    margin-top: 40px; }
+
+  .ic-success-area {
+    height: auto;
+    padding: 20px 0px 40px 0px; }
+
+  .ic-success-career-heading {
+    padding-top: 0px; }
+
+  .ic-success-career-main {
+    padding-bottom: 0px; }
+    .ic-success-career-main .ic-success-career-left {
+      position: static; }
+
+  .ic-success-career-body-right {
+    display: none; }
+
+  .ic-success-career-body-right-m {
+    display: block; }
+
+  .ic-footer-useful-link {
+    margin-top: 40px; }
+
+  .ic-footer-copyright {
+    text-align: center; }
+
+  .ic-fotter-bottom-right {
+    text-align: center;
+    margin-bottom: 10px; }
+
+    /**====================
+   About Page
+========================
+**/
+  .ic-breadcumb-area .content h1 a {
+    font-size: 30px; }
+
+  .ic-about-service-left {
+    margin-top: 30px; }
+
+  .ic-about-service-left .ic-heading {
+    margin-bottom: 30px; }
+
+  .ic-about-service-right .ic-total-solve-case {
+    padding: 10px 0px 25px 0px;
+    top: unset;
+    bottom: 0;
+    transform: translateY(0);
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%); }
+    .ic-about-service-right .ic-total-solve-case h1 {
+      font-size: 44px;
+      line-height: 55px;
+      margin-bottom: 0px; }
+
+  .ic-team-contents .item {
+    margin-bottom: 90px; }
+
+  .ic-team-details-content {
+    padding-top: 20px; }
+
+    /**====================
+   Error Page
+========================
+**/
+  .ic-error-area {
+    padding-top: 20px; }
+
+  .ic-error-area-content {
+    text-align: center; }
+
+  .ic-error-main-content P {
+    width: 100%; }
+  .ic-error-main-content .ic-error-btn {
+    justify-content: center; }
+
+  .ic-error-left-image img {
+    margin: auto;
+    margin-top: 30px; }
+
+    /**====================
+   Free consultation Page
+========================
+**/
+  .ic-free-consultation-area {
+    padding: 40px 0px 0px 0px; }
+
+  .ic-free-consultation-image {
+    position: static;
+    margin-top: 30px; }
+    .ic-free-consultation-image img {
+      width: 100%; }
+
+    /**====================
+   Attorneys details Page
+========================
+**/
+  .ic-attorneys-user-profile .right {
+    padding: 20px 20px 20px 20px; }
+    .ic-attorneys-user-profile .right .contact a {
+      display: block;
+      margin-bottom: 5px; }
+  .ic-attorneys-user-profile .left .thumbnil img {
+    width: 100%; }
+
+  .ic-user-details-content .ic-education-courtadmission .ic-education-list {
+    display: block; }
+    .ic-user-details-content .ic-education-courtadmission .ic-education-list ul {
+      margin-right: 0px; }
+
+  .ic-practice-area {
+    padding: 40px 0px 0px 0px; }
+
+  .ic-user-details-content .ic-leadership-image {
+    margin-bottom: 40px; }
+
+  .ic-contact-address-info .col-md-6:not(:last-child) {
+    margin-bottom: 20px; }
+
+  .ic-map-area iframe {
+    height: 400px; }
+
+    /**====================
+   Conatct Page
+========================
+**/
+  .ic-contact-form .title {
+    margin-bottom: 30px; }
+    .ic-contact-form .title h4 {
+      margin-bottom: 8px; }
+    .ic-contact-form .title p {
+      width: 100%; }
+
+    /**====================
+   Faq Page
+========================
+**/
+  .ic-faq-left {
+    margin-bottom: 40px; }
+
+    /**====================
+   News Page
+========================
+**/
+  .ic-news-area-content .ic-news-content .content {
+    width: 350px;
+    left: unset;
+    right: 0; }
+
+  .ic-news-right {
+    margin-top: 40px; }
+
+    /**====================
+   News Details Page
+========================
+**/
+  .ic-blog-details-area .ic-post-comment .ic-comment-box .left {
+    flex: 0 0 22%; }
+  .ic-blog-details-area .ic-post-comment .ic-comment-box .replay-field {
+    width: 100%; }
+
+    /**====================
+   Practice  Page
+========================
+**/
+    /**====================
+   Practice Details Page
+========================
+**/
+  .ic-long-breadcumb-area .content {
+    display: block; } }
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /**====================
+   Home Page
+========================
+**/
+  .m-logo {
+    display: none; }
+
+  .ic-header-top-contact a {
+    padding: 0px;
+    display: block;
+    margin-right: 10px; }
+    .ic-header-top-contact a:first-child::after {
+      display: none;
+      background: #eeeeee; }
+  .ic-header-top-contact i {
+    margin-right: 0px; }
+
+  .ic-header-top-social ul li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px; }
+    .ic-header-top-social ul li a i {
+      font-size: 16px; }
+
+  .ic-navbar .navbar-toggler {
+    background: #f00014; }
+    .ic-navbar .navbar-toggler i {
+      font-size: 30px;
+      color: #fff; }
+  .ic-navbar li:hover a {
+    background: #00539c; }
+  .ic-navbar li a {
+    padding: 25px 10px !important; }
+  .ic-navbar .ic-dropdown-item .ic-dropdown {
+    padding-right: 15px !important; }
+    .ic-navbar .ic-dropdown-item .ic-dropdown::after {
+      right: 0; }
+
+  .ic-navbar-search-icon {
+    margin-top: 8px; }
+
+  .ic-banner-content {
+    padding: 120px 0px; }
+
+  .ic-counter-content {
+    margin: 20px 0px 0px 0px; }
+    .ic-counter-content.content3 {
+      margin-bottom: 20px; }
+    .ic-counter-content.content4 {
+      margin-bottom: 20px; }
+    .ic-counter-content .content {
+      margin-left: 20px; }
+
+  .ic-about-left .ic-heading h1 br {
+    display: none; }
+
+  .ic-success-career-left img {
+    width: 80%; }
+
+  .ic-success-career-heading {
+    padding-top: 0px; }
+
+  .ic-news-content .content {
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden; }
+
+  .ic-news-content:hover .content {
+    bottom: 0px;
+    visibility: visible;
+    opacity: 1; }
+
+  .ic-fotter-bottom-right ul li a {
+    padding: 0px 10px; }
+
+    /**====================
+   About Page
+========================
+**/
+  .ic-about-service-left .ic-heading {
+    margin-bottom: 30px; }
+
+  .ic-about-service-right .ic-total-solve-case {
+    padding: 10px 0px 25px 0px;
+    top: unset;
+    bottom: 0;
+    transform: translateY(0);
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%); }
+    .ic-about-service-right .ic-total-solve-case h1 {
+      font-size: 44px;
+      line-height: 55px;
+      margin-bottom: 0px; }
+
+  .ic-team-contents .item {
+    margin-bottom: 90px; }
+
+  .ic-team-details-content {
+    padding-top: 40px; }
+
+    /**====================
+   Error Page
+========================
+**/
+  .ic-error-main-content p {
+    width: 60%; }
+
+    /**====================
+   Free consultation Page
+========================
+**/
+  .ic-free-consultation-image img {
+    width: 100%; }
+
+    /**====================
+   Attorneys details Page
+========================
+**/
+  .ic-attorneys-user-profile .left .thumbnil img {
+    width: 100%; }
+
+  .ic-attorneys-user-profile .right {
+    padding: 20px 20px 20px 20px; }
+
+  .ic-our-professional-carousel .ic-user {
+    margin-bottom: 10px; }
+    .ic-our-professional-carousel .ic-user img {
+      margin: auto; }
+  .ic-our-professional-carousel .ic-slider-item {
+    display: block;
+    text-align: center; }
+
+  .ic-contact-address-info .col-md-6:not(:last-child) {
+    margin-bottom: 20px; }
+
+    /**====================
+   Contact Page
+========================
+**/
+  .ic-contact-form .title p {
+    width: 100%; }
+
+  .ic-map-area iframe {
+    height: 400px; }
+
+    /**====================
+   Faq Page
+========================
+**/
+  .ic-faq-left {
+    margin-bottom: 40px; }
+
+  .ic-news-area-content .ic-news-content:hover .content {
+    bottom: 30px; }
+  .ic-news-area-content .ic-news-content .content {
+    left: 100px; }
+
+    /**====================
+   News Details Page
+========================
+**/
+  .ic-blog-details-area .ic-post-comment .ic-comment-box .left {
+    flex: 0 0 25%; }
+  .ic-blog-details-area .ic-post-comment .ic-comment-box .replay-field {
+    width: 100%; }
+
+  .ic-practice-area .row {
+    justify-content: center; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .ic-header-top-contact a {
+    display: block; }
+
+  .ic-pl-15 {
+    padding-left: 0px; }
+
+  .ic-header-top-contact a:first-child::after {
+    display: none; }
+
+  .ic-why-work-content {
+    padding: 20px; }
+
+  .ic-news-content .content {
+    left: 0; }
+
+  .ic-banner-content {
+    padding: 150px 0px; }
+
+    /**====================
+   Free consultation Page
+========================
+**/
+  .ic-free-consultation-image img {
+    width: 100%; }
+
+    /**====================
+   Attorneys details Page
+========================
+**/
+  .ic-attorneys-user-profile .right .contact {
+    margin: 15px 0px 15px 0px; }
+    .ic-attorneys-user-profile .right .contact a {
+      margin-right: 5px; }
+      .ic-attorneys-user-profile .right .contact a i {
+        margin-right: 2px; }
+
+  .ic-news-area-content .ic-news-content .content {
+    width: 315px;
+    left: 10px; }
+
+    /**====================
+   News details Page
+========================
+**/
+  .ic-blog-details-area .ic-post-comment .ic-comment-box .left {
+    flex: 0 0 15%; }
+
+    /**====================
+   Contact Page
+========================
+**/
+  .ic-contact-address-info .item {
+    padding: 20px; }
+
+  .ic-contact-form .title p {
+    width: 90%; } }
+@media (min-width: 1200px) and (max-width: 1280px) {
+  .ic-banner-content {
+    padding: 150px 0px; } }
+@media (min-width: 1281px) and (max-width: 1366px) {
+  .ic-banner-content {
+    padding: 150px 0px; } }
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .ic-banner-content {
+    padding: 200px 0px; } }
+/*Extra large devices (large desktops, 1200px and up)*/
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,1056 @@
+/*--------------------------------------------------------------
+   large devices, wide screens 
+---------------------------------------------------------------*/
+@media screen and (min-width:1200px) {
+    .ic-nav-ul li.nav-item {
+        position: relative;
+    }
+
+    .ic-nav-ul li.nav-item a.nav-link,
+    .ic-icon-search {
+        padding: 0px 15px !important;
+        line-height: 104px;
+    }
+
+    .ic-nav-ul li.nav-item a.nav-link::before {
+        position: absolute;
+        opacity: 0;
+        bottom: 15px;
+        width: 24px;
+        height: 17px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        font-size: 24px;
+        content: "\ebb5";
+        font-family: 'IcoFont' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        line-height: 1;
+        -webkit-font-feature-settings: "liga";
+        -webkit-font-smoothing: antialiased;
+        -webkit-transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+        -moz-transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+        -o-transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+        transition: opacity .3s ease-in-out, bottom .3s ease-in-out;
+
+    }
+
+    .ic-nav-ul li.nav-item a.nav-link:hover::before,
+    .ic-nav-ul li.nav-item a.nav-link.active::before {
+        opacity: 1;
+        bottom: 20px;
+    }
+
+    .ic-dropdown {
+        position: relative;
+        z-index: 1;
+    }
+
+    .ic-dropdown>a>i {
+        font-weight: 700;
+    }
+
+    .ic-dropdown .ic-dropdown-menu {
+        position: absolute;
+        top: 120%;
+        visibility: hidden;
+        opacity: 0;
+        background: #fff;
+        -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+        min-width: 200px;
+        padding: 25px 30px;
+        border: 1px solid #eee;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        transition: all linear .3s;
+    }
+
+    .ic-dropdown .ic-dropdown-menu li a span {
+        font-family: auto;
+    }
+
+    .ic-dropdown .ic-dropdown-menu li a.dropdown-item {
+        padding: 8px 1.5rem;
+        padding-left: 0;
+        text-transform: capitalize;
+    }
+
+    .ic-dropdown .ic-dropdown-menu li a.dropdown-item:hover,
+    .ic-dropdown .ic-dropdown-menu li a.dropdown-item:active {
+        background-color: transparent;
+    }
+
+    .ic-dropdown:hover .ic-dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    ul.ic-dropdown-menu::after {
+        position: absolute;
+        top: -19px;
+        left: 25px;
+        content: "";
+        z-index: 1;
+        border-top: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+        border-left: 10px solid transparent;
+    }
+
+    ul.ic-dropdown-menu::before {
+        position: absolute;
+        top: -21px;
+        left: 24px;
+        content: "";
+        z-index: -1;
+        border-top: 11px solid transparent;
+        border-right: 11px solid transparent;
+        border-bottom: 11px solid #eee;
+        border-left: 11px solid transparent;
+    }
+
+    .ic-nav-ul li a.active,
+    .ic-nav-ul li a:hover {
+        color: #9e6d36 !important;
+    }
+}
+
+/* ----/ max-height / ---- */
+@media screen and (max-height:750px) {
+
+    #ic-error-page,
+    #ic-comming-soon .ic-left-col-comming-soon {
+        height: 100%;
+    }
+}
+
+/* ----/ max-width /---- */
+/*--------------------------------------------------------------
+    laptop, desktop
+---------------------------------------------------------------*/
+@media screen and (max-width:1199.98px) {
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    body {
+        padding-top: 90px;
+    }
+
+    .ic-icon-font {
+        margin-bottom: 30px;
+    }
+
+    .ic-single-practice-box h4 {
+        margin-bottom: 15px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-text h4 {
+        margin-bottom: 8px;
+    }
+
+    .ic-legal-advice-help-content h2 {
+        margin-bottom: 25px;
+    }
+
+    .ic-find-answer-content>h2 {
+        margin-bottom: 35px;
+    }
+
+    .ic-contact-left-content .ic-single-block h4 {
+        margin-bottom: 9px;
+    }
+
+    .ic-contact-left-content .ic-single-block {
+        margin-top: 30px;
+    }
+
+    .ic-single-block {
+        margin-bottom: 32px;
+    }
+
+    .ic-gap-height {
+        height: 45px;
+    }
+
+    .ic-right-content h2,
+    .ic-left-4-col h2 {
+        margin-bottom: 27px;
+    }
+
+    .ic-single-news .ic-bottom-content h4 {
+        margin-bottom: 12px;
+    }
+
+    #ic-top-footer .ic-footer-col h3 {
+        margin-bottom: 22px;
+    }
+
+    .ic-nav ul.navbar-nav.ic-nav-ul {
+        position: fixed;
+        top: 0;
+        right: -500px;
+        height: 100vh;
+        background: #9e6d36;
+        padding: 60px 15px 30px 30px;
+        z-index: 1110;
+        min-width: 275px;
+        -webkit-transition: 1s ease;
+        -moz-transition: 1s ease;
+        -o-transition: 1s ease;
+        transition: 1s ease;
+        overflow-y: auto;
+        border-left: 1px solid #666;
+        border-right: 1px solid #666;
+    }
+
+    html.ic-expand .ic-nav ul.navbar-nav.ic-nav-ul {
+        right: 0;
+    }
+
+    html.ic-expand .ic-nav-close-btn {
+        opacity: 1;
+        visibility: visible;
+        right: 238px;
+        -moz-transition: all 1.2s ease;
+        -o-transition: all 1.2s ease;
+        -webkit-transition: all 1.2s ease;
+        transition: all 1.2s ease;
+    }
+
+    .ic-nav .ic-nav-bg {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .75);
+        z-index: 111;
+        opacity: 0;
+        visibility: hidden;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    html.ic-expand .ic-nav .ic-nav-bg {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .ic-nav-ul li a {
+        color: #fff !important;
+    }
+
+    .ic-nav-ul li:hover a {
+        color: #fff !important;
+        background: transparent;
+    }
+
+    .ic-nav .ic-nav-search {
+        margin-left: 0px !important;
+        padding-left: 15px;
+    }
+
+    .ic-nav .navbar-brand img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 80%;
+    }
+
+    .ic-nav .navbar-brand {
+        width: auto;
+    }
+
+    div#ic-main-navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 11;
+        height: 90px;
+        box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.07);
+        -webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.07);
+        -moz-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.07);
+    }
+
+    #ic-top-bar {
+        display: none;
+    }
+
+
+    .ic-news .ic-tag-share .ic-social-text-inline {
+        float: none;
+    }
+
+    .ic-single-practice-box {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*--------------------------------------------------------------
+    tablet
+---------------------------------------------------------------*/
+@media screen and (max-width:991.98px) and (min-width:768px) {
+    #ic-experience-lawyer .ic-image-col {
+        text-align: center;
+    }
+
+    #ic-experience .ic-content-col {
+        order: 2;
+    }
+
+    #ic-experience-lawyer .ic-image-col.ic-left {
+        margin-bottom: 50px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature {
+        width: 48%;
+        float: left;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature:nth-child(2),
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature:nth-child(4) {
+        float: right;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+    #ic-talented-attorneys,
+    .ic-latest-news {
+        padding-bottom: 40px;
+    }
+
+}
+
+/*--------------------------------------------------------------
+    tablet
+---------------------------------------------------------------*/
+@media screen and (max-width:991.98px) {
+    .about-us-btn{
+        text-align: center;
+    }
+
+    #ic-experience .ic-content-col {
+        order: 2;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #ic-experience .ic-image-col {
+        text-align: center;
+    }
+
+    #ic-about-us .ic-single-col {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 690px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-icon i {
+        font-size: 30px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-text {
+        margin-left: 75px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-text h4 {
+        margin-bottom: 6px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-text p {
+        font-size: 15px;
+    }
+
+    .ic-counter .ic-single-content h6 {
+        font-size: 15px;
+    }
+
+    .ic-counter .ic-single-content .ic-icon-count .ic-icon i {
+        font-size: 27px;
+    }
+
+    .ic-counter .ic-single-content .ic-icon-count h1 {
+        font-size: 27px;
+    }
+
+    .ic-experience .ic-content h3 {
+        margin-bottom: 15px;
+    }
+
+    .ic-experience .ic-content h1 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    .ic-experience .ic-content a {
+        margin-top: 30px;
+    }
+
+    .ic-feedback-slider .ic-single-feedback {
+        padding: 33px 25px;
+    }
+
+    .ic-feedback-slider .ic-single-feedback>p {
+        margin-bottom: 25px;
+    }
+
+    .ic-feedback-slider ul.slick-dots {
+
+        margin-top: 25px;
+    }
+
+    #ic-top-footer .ic-footer-left-col>img {
+        margin-bottom: 25px;
+    }
+
+    #ic-top-footer .ic-footer-left-col ul {
+        margin-top: 23px;
+    }
+
+    #ic-top-footer [class^="col-"]:first-child .ic-footer-col,
+    #ic-top-footer [class^="col-"]:nth-child(2) .ic-footer-col {
+        margin-bottom: 40px;
+    }
+
+    #ic-top-footer .ic-footer-col h3 {
+        margin-bottom: 18px;
+    }
+
+    #ic-top-footer .ic-footer-col ul li:not(:last-child) {
+        margin-bottom: 7px;
+    }
+
+    .ic-form form {
+        margin-top: 30px;
+    }
+
+    #ic-bottom-footer p {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #ic-scroll-top a {
+        font-size: 27px;
+    }
+
+    section#ic-about-us .ic-image-col {
+        margin-bottom: 30px;
+    }
+
+    .ic-single-talented-attorneys .ic-text {
+        margin-top: 25px;
+    }
+
+    .ic-attorneys-c .grid-sizer,
+    .ic-attorneys-c .grid-item {
+        width: calc(100%/2 - 15px);
+    }
+
+    .ic-filter-sort .ic-sort-right span {
+        margin-right: 20px;
+    }
+
+    .ic-gap-height-40 {
+        height: 35px;
+    }
+
+    .ic-right-content h2,
+    .ic-left-4-col h2 {
+        margin-bottom: 20px;
+    }
+
+    .ic-popular-news .ic-single-popular-news .ic-text p {
+        margin-bottom: 6px;
+    }
+
+    .ic-popular-news .ic-single-popular-news .ic-text {
+        margin-left: 86px;
+    }
+
+    .ic-attoryney-person .ic-image {
+        margin-bottom: 20px;
+    }
+
+    .ic-contact-left-content .ic-single-block {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .ic-attorneys .col-md-12.col-lg-9 {
+        margin-top: 12px;
+    }
+
+    .ic-right-content {
+        margin-bottom: 40px;
+    }
+
+    .ic-order-row>[class^="col-"]:first-child {
+        order: 2;
+    }
+
+    #ic-error-page .ic-content-text .ic-text-s {
+        font-size: 50px;
+    }
+
+    #ic-error-page .ic-content-text {
+        margin-bottom: 45px;
+    }
+
+    #ic-error-page .ic-btn-g {
+        margin-bottom: 25px;
+    }
+
+    #ic-error-page {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .ic-section-style {
+        width: 273px;
+    }
+
+    .ic-section-style .ic-b {
+        width: 92px;
+    }
+
+    .ic-contact-left-content .ic-single-block .ic-icon {
+        margin-bottom: 10px;
+    }
+
+    .ic-practice-box-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #ic-about-us .row .col-lg-6:first-child {
+        padding-left: 15px !important;
+    }
+
+    .ic-contact-left-content .ic-single-block h4 {
+        color: #9e6d36;
+        margin-bottom: 6px;
+    }
+
+    .ic-contact .row [class^="col-"]:first-child {
+        margin-bottom: 45px;
+    }
+
+    .ic-contact-right-content .ic-single-block {
+        margin-bottom: 25px;
+    }
+
+    #ic-slider .slider-item-inner .slider-text .ic-btn-t{
+        margin-top: 25px;
+    }
+}
+
+/*--------------------------------------------------------------
+    large mobile
+----------------------------------------------------------------*/
+@media screen and (max-width:767.98px) {
+    h2{
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    .wow {
+        visibility: visible !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+    p,
+    .form-control {
+        font-size: 15px;
+    }
+
+    .form-control {
+        padding: 13px 20px;
+    }
+
+    .ic-btn-t i {
+        margin-left: 10px;
+    }
+
+    .ic-single-practice-box {
+        max-width: 335px;
+        padding: 30px 15px 30px;
+    }
+
+    .ic-single-practice-box h4 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .ic-icon-font {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .ic-icon-font i {
+        font-size: 28px;
+    }
+
+    .ic-btn-t.ic-invert {
+        min-width: 140px;
+    }
+
+    .ic-image-col.ic-left {
+        margin-bottom: 50px;
+    }
+
+    .ic-icon-font {
+        margin-bottom: 20px;
+    }
+
+    .ic-btn-t {
+        font-size: 15px;
+        margin-top: 25px;
+        padding: 9px 23px;
+    }
+
+    .ic-experience .ic-content a {
+        margin-top: 25px;
+    }
+
+    .ic-feedback-slider ul.slick-dots {
+        margin-top: 15px;
+    }
+
+    .ic-single-news .ic-bottom-content h4 {
+        margin-bottom: 12px;
+    }
+
+    #ic-top-footer [class^="col-"]:nth-child(3) .ic-footer-col {
+        margin-bottom: 30px;
+    }
+
+    .ic-nav .ic-nav-search {
+        padding: 0px 10px;
+    }
+
+    .ic-experience .ic-content h1 {
+        font-size: 24px;
+    }
+
+    .ic-attorneys-c .grid-sizer,
+    .ic-attorneys-c .grid-item {
+        width: 100%;
+    }
+
+    .ic-single-talented-attorneys .ic-text {
+        margin-top: 20px;
+    }
+
+    .ic-single-talented-attorneys h6 {
+        margin-bottom: 6px;
+    }
+
+    .ic-filter-sort {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .ic-dropdown-gallery,
+    .ic-filter-sort .ic-sort-right {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ic-filter-sort .ic-sort-right>span {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .ic-contact .ic-single-block {
+        margin-bottom: 25px;
+    }
+
+    .ic-find-answer-content>h2 {
+        margin-bottom: 30px;
+        line-height: 1.4;
+    }
+
+    .ic-accordion .card .card-header h6 button {
+        padding: 10px 20px;
+    }
+
+    .ic-accordion .card .card-header {
+        margin-bottom: 15px;
+    }
+
+    .ic-accordion .card .card-header h6 button i {
+        margin-right: 15px;
+    }
+
+    .ic-accordion .card .card-body {
+        padding: 15px 20px 15px 44px;
+    }
+
+    .ic-legal-advice-help-content .ic-btn-t {
+        margin-top: 35px;
+    }
+
+    .ic-legal-advice-help-content h2 {
+        margin-bottom: 20px;
+    }
+
+    .ic-left-4-col .ic-left-link-list ul li:not(:last-child) {
+        margin-bottom: 18px;
+    }
+
+    .ic-social-text-inline ul.social {
+        margin-left: 8px;
+    }
+
+    .ic-attoryney-person .ic-image {
+        margin-bottom: 15px;
+    }
+
+    .ic-attoryney-person h3 {
+        margin-bottom: 7px;
+    }
+
+    #ic-about-us .ic-single-col {
+        max-width: 510px;
+    }
+
+    #ic-error-page .ic-content-text .ic-numeric {
+        font-size: 170px;
+    }
+
+    #ic-error-page .ic-btn-g {
+        margin-bottom: 20px;
+    }
+
+    #ic-error-page .ic-content-text {
+        margin-bottom: 35px;
+    }
+
+    .ic-btn-t-r:nth-child(2) {
+        margin-left: 25px;
+    }
+
+    #ic-gallery-item-selector {
+        margin-bottom: 30px;
+    }
+
+    #ic-talented-attorneys,
+    .ic-latest-news {
+        padding-bottom: 30px;
+    }
+
+    .ic-news-details .ic-gap-height {
+        height: 30px;
+    }
+
+    #ic-practice-area-details .ic-gap-height {
+        height: 40px;
+    }
+
+    #ic-practice-area-details .ic-right-content {
+        margin-bottom: 35px;
+    }
+
+    .ic-attorneys .ic-gap-height {
+        height: 35px;
+    }
+}
+
+/*--------------------------------------------------------------
+   medium mobile
+----------------------------------------------------------------*/
+@media screen and (max-width:575.98px) {
+    h4 {
+        font-size: 17px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    .ic-breadcrumb-banner .ic-breadcrumb ol.breadcrumb li.breadcrumb-item {
+        font-size: 16px;
+    }
+
+    .ic-breadcrumb-banner .ic-breadcrumb ol.breadcrumb {
+        justify-content: center;
+
+    }
+
+    #ic-talented-attorneys,
+    .ic-latest-news {
+        padding-bottom: 30px;
+    }
+
+    .ic-experience .ic-content h1 {
+        font-size: 20px;
+    }
+
+    .ic-find-answer-content>h2 {
+        margin-bottom: 25px;
+    }
+
+    .ic-accordion .card .card-header h6 button {
+        padding: 7px 15px;
+    }
+
+    .ic-accordion .card .card-body {
+        padding: 12px 15px 12px 38px;
+    }
+
+    .ic-right-content h2,
+    .ic-left-4-col h2 {
+        margin-bottom: 18px;
+    }
+
+    .ic-left-4-col .ic-left-link-list ul li:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    .ic-right-content blockquote {
+        margin: 0 40px;
+    }
+
+    .ic-social-text-inline ul.social {
+        margin-left: 3px;
+    }
+
+    ul.social li:not(:last-child) {
+        margin-right: 1px;
+    }
+
+    ul.social li a i {
+        font-size: 18px;
+    }
+
+    ul.ic-social-ul-text.text-left li {
+        margin-bottom: 4px !important;
+    }
+
+    ul.ic-social.social li:not(:last-child) {
+        margin-right: 8px;
+    }
+
+    .ic-single-comment .ic-single-comment {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
+    .ic-single-comment .ic-text .ic-replay-message {
+        margin-top: 15px;
+    }
+
+    .ic-single-block {
+        margin-bottom: 25px;
+    }
+
+    .ic-attorneys .col-md-12.col-lg-9 {
+        margin-top: 2px;
+    }
+
+    .ic-btn-t i {
+        margin-left: 4px;
+    }
+
+    .ic-btn-t-r:nth-child(2) {
+        margin-left: 17px;
+    }
+
+    #ic-error-page ul.social li a i {
+        color: #9e6d36;
+        font-size: 20px;
+    }
+
+    #ic-error-page ul.social li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    #ic-error-page .ic-content-text {
+        margin-bottom: 30px;
+    }
+
+    .ic-section-style {
+        width: 260px;
+    }
+
+    .ic-section-style .ic-b {
+        width: 85px;
+    }
+
+    .ic-news-details.ic-news .ic-single-news {
+        margin-bottom: 24px;
+    }
+
+    .ic-practice-box-container {
+        grid-template-columns: 1fr;
+    }
+
+    .ic-btn-t-r {
+        padding: 9px 35px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .ic-btn-t{
+        padding: 9px 13px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #ic-error-page .ic-content-text .ic-numeric {
+        font-size: 150px;
+    }
+
+    #ic-error-page .ic-content-text .ic-text-s {
+        font-size: 45px;
+    }
+
+    #ic-error-page .ic-content-text {
+        margin-bottom: 25px;
+    }
+
+    .ic-btn-t-r:nth-child(2) {
+        margin-left: 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+    small mobile
+----------------------------------------------------------------*/
+@media screen and (max-width:400px) {
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .ic-image-col.ic-left {
+        margin-bottom: 35px;
+    }
+
+    .ic-experience-lawyer-content .ic-content-col .ic-single-feature:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    .ic-counter [class^="col-"] {
+        width: 100%;
+        max-width: 100%;
+        -webkit-flex: 0 0 100%;
+        -moz-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .ic-counter [class^="col-"]:nth-child(3){
+        margin-bottom: 45px;
+    }
+
+    ul.ic-pagination li:not(:last-child) {
+        margin-right: 7px;
+    }
+
+    ul.ic-pagination li a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    ul.ic-pagination {
+        margin-top: 0;
+    }
+
+    .ic-legal-advice-help-content .ic-btn-group .ic-btn-t.ic-btn-reverse:first-child {
+        margin-right: 9px;
+    }
+
+    ul.social li a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .ic-single-block {
+        margin-bottom: 28px;
+    }
+
+    .ic-left-4-col .ic-left-link-list ul li:not(:last-child) {
+        margin-bottom: 13px;
+    }
+
+    .ic-section-style .ic-b {
+        width: 80px;
+    }
+
+    .ic-section-style {
+        width: 240px;
+    }
+
+    .ic-btn-t-r {
+        padding: 9px 25px;
+    }
+
+    .ic-legal-advice-help-content .ic-btn-t {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .ic-btn-t-r:nth-child(2) {
+        margin-left: 10px;
+    }
+}
