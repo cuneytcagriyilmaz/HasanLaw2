@@ -1009,7 +1009,7 @@ header {
     transition: all 0.25s; }
 
 @media screen and (min-width: 1200px) {
-  .ic-dropdown-li-nav.ic-sort-screen .ic-dropdown-menu-ul {
+  .ic-dropdown-li-nav.ic-dropdown-menu-ul {
     display: block; } }
 /*---Navbar Fix scroll---*/
 @media screen and (min-width: 1200px) {
@@ -1090,9 +1090,9 @@ body.ic-nav-fix #ic-main-navbar {
     min-width: 100%; } }
 /*---Navbar Dropdown Mobile---*/
 @media screen and (max-width: 1199.98px) {
-  .ic-dropdown-li-nav.ic-sort-screen.ic-active > a {
+  .ic-dropdown-li-nav.ic-active > a {
     color: #9e6d36; }
-    .ic-dropdown-li-nav.ic-sort-screen.ic-active > a i {
+    .ic-dropdown-li-nav.ic-active > a i {
       -webkit-transform: rotate(180deg);
       -moz-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
@@ -2787,7 +2787,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
 
 
 .our_footer_area{
-  background-image: url(../images/footer.png );
+  background-image: url(../assets/images/footer.png );
 
     background-repeat: no-repeat;
     background-position: center top;
