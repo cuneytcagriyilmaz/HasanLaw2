@@ -190,7 +190,7 @@ h4 {
 h1,
 h2,
 h3 {
-  color: #9e6d36; }
+  color: #0B6E99; }
 
 /*-- 
     - Common Classes
@@ -210,10 +210,10 @@ h3 {
   color: #151310; }
 
 .ic-primary-color {
-  color: #9e6d36; }
+  color: #0B6E99; }
 
 .ic-primary-bg {
-  background-color: #9e6d36; }
+  background-color: #0B6E99; }
 
 .ic-box-color {
   background-color: #fcfcfc; }
@@ -251,7 +251,7 @@ h3 {
 .ic-section-title {
   text-align: center; }
   .ic-section-title h3 {
-    color: #9e6d36;
+    color: #0B6E99;
     font-weight: 400; }
     @media only screen and (max-width: 991.98px) and (min-width: 768px) {
       .ic-section-title h3 {
@@ -291,7 +291,7 @@ h3 {
       padding-bottom: 13px; } }
   .ic-section-style .ic-b {
     height: 6px;
-    background-color: #9e6d36;
+    background-color: #0B6E99;
     width: 100px;
     display: inline-block; }
   .ic-section-style .ic-left-b {
@@ -301,7 +301,7 @@ h3 {
   .ic-section-style i {
     display: block;
     font-size: 48px;
-    color: #9e6d36;
+    color: #0B6E99;
     position: relative;
     top: -19px; }
 
@@ -373,16 +373,16 @@ button:focus,
     content: "";
     position: absolute; }
   .ic-btn-t:hover {
-    color: #9e6d36; }
+    color: #0B6E99; }
     .ic-btn-t:hover::after {
       width: 100%;
       opacity: 1; }
 
 .ic-btn-t.ic-invert {
-  color: #9e6d36;
-  border: 1px solid #9e6d36; }
+  color: #0B6E99;
+  border: 1px solid #0B6E99; }
   .ic-btn-t.ic-invert::after {
-    background: #9e6d36; }
+    background: #0B6E99; }
   .ic-btn-t.ic-invert:hover {
     color: #fff; }
     .ic-btn-t.ic-invert:hover::after {
@@ -390,7 +390,7 @@ button:focus,
       opacity: 1; }
 
 .ic-btn-t.ic-btn-reverse {
-  border: 1px solid #9e6d36;
+  border: 1px solid #0B6E99;
   font-weight: bold; }
   .ic-btn-t.ic-btn-reverse::after {
     content: "";
@@ -401,7 +401,7 @@ button:focus,
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #9e6d36;
+    background-color: #0B6E99;
     -webkit-transform: scaleX(1);
     -moz-transform: scaleX(1);
     -ms-transform: scaleX(1);
@@ -458,7 +458,7 @@ button:focus,
   padding: 12px 45px;
   background-color: transparent;
   z-index: 1;
-  border: 1px solid #9e6d36;
+  border: 1px solid #0B6E99;
   margin-top: 0; }
   .ic-btn-t-r:nth-child(2) {
     margin-left: 30px; }
@@ -467,7 +467,7 @@ button:focus,
     height: 103%;
     top: 50%;
     left: 50%;
-    background: #9e6d36;
+    background: #0B6E99;
     opacity: 1;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
@@ -482,7 +482,7 @@ button:focus,
     content: "";
     position: absolute; }
   .ic-btn-t-r:hover {
-    color: #9e6d36; }
+    color: #0B6E99; }
     .ic-btn-t-r:hover::after {
       width: 0%;
       opacity: 0; }
@@ -526,7 +526,7 @@ select:focus {
 
 .form-control {
   border: 1px solid #222111;
-  color: #9e6d36;
+  color: #0B6E99;
   font-size: 16px;
   background-color: transparent;
   height: auto;
@@ -557,11 +557,11 @@ select:focus {
     /* Microsoft Edge */
     color: #222111; }
   .form-control:focus, .form-control:hover {
-    border: 1px solid #9e6d36;
+    border: 1px solid #0B6E99;
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    color: #9e6d36; }
+    color: #0B6E99; }
 
 textarea.form-control {
   line-height: 1.5 !important;
@@ -583,7 +583,7 @@ textarea.form-control {
     appearance: none;
     line-height: 1.5; }
     .ic-theme-select .form-control.ic-select:focus, .ic-theme-select .form-control.ic-select:hover {
-      border: 1px solid #9e6d36;
+      border: 1px solid #0B6E99;
       color: #222111; }
 
 .nice-select.form-control.ic-select {
@@ -664,7 +664,7 @@ textarea.form-control {
       .ic-breadcrumb-banner .ic-breadcrumb ol.breadcrumb li.breadcrumb-item a {
         color: #fff; }
         .ic-breadcrumb-banner .ic-breadcrumb ol.breadcrumb li.breadcrumb-item a:hover {
-          color: #9e6d36; }
+          color: #0B6E99; }
 
 /*-- 
     - Loading CSS
@@ -696,7 +696,7 @@ textarea.form-control {
       width: 72px;
       height: 72px;
       border-radius: 100%;
-      background-color: #9e6d36;
+      background-color: #0B6E99;
       -webkit-animation: preloader-fx 1.5s linear infinite;
       animation: preloader-fx 1.5s linear infinite; }
       .preloader .preloader-icon span:last-child {
@@ -730,7 +730,7 @@ textarea.form-control {
   width: 60px;
   height: 60px;
   text-align: center;
-  background-color: #9e6d36;
+  background-color: #0B6E99;
   text-align: center;
   bottom: -60px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
@@ -832,21 +832,21 @@ ul.ic-pagination {
     height: 30px;
     line-height: 30px;
     text-align: center;
-    color: #9e6d36;
+    color: #0B6E99;
     border: 0 !important;
     border-radius: 0 !important;
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
     font-size: 18px; }
     ul.ic-pagination li a.active:not(.ic-dot) {
-      background-color: #9e6d36;
+      background-color: #0B6E99;
       color: #fff; }
   ul.ic-pagination li:hover a:not(.ic-dot) {
-    background-color: #9e6d36;
+    background-color: #0B6E99;
     color: #fff; }
   ul.ic-pagination li:hover .ic-dot {
     background-color: transparent;
-    color: #9e6d36; }
+    color: #0B6E99; }
 
 /*-- 
     - Legal Advice Area
@@ -899,7 +899,7 @@ header {
     list-style-type: none;
     display: inline-block; }
   #ic-top-bar .ic-top-ul-left {
-    color: #9e6d36; }
+    color: #0B6E99; }
     #ic-top-bar .ic-top-ul-left li {
       position: relative; }
       #ic-top-bar .ic-top-ul-left li:not(:last-child)::after {
@@ -909,7 +909,7 @@ header {
         top: 0;
         width: 2px;
         height: 100%;
-        background: #9e6d36; }
+        background: #0B6E99; }
       #ic-top-bar .ic-top-ul-left li:first-child {
         padding-right: 20px;
         margin-right: 18px; }
@@ -944,7 +944,7 @@ header {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
     .ic-social-ul-text li:hover a {
-      color: #9e6d36; }
+      color: #0B6E99; }
       .ic-social-ul-text li:hover a::after {
         color: #151310; }
 
@@ -985,7 +985,7 @@ header {
       -o-transition: 0.3s linear;
       transition: 0.3s linear; }
     .ic-nav .ic-nav-search:hover .ic-icon i {
-      color: #9e6d36; }
+      color: #0B6E99; }
 
 .ic-nav-ul li {
   list-style-type: none; }
@@ -1067,7 +1067,7 @@ body.ic-nav-fix #ic-main-navbar {
     border: 0;
     border-bottom: 1px solid #ddd; }
   .search-tp button.btn.ic-btn-search {
-    background: #9e6d36;
+    background: #0B6E99;
     color: #fff;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -1091,7 +1091,7 @@ body.ic-nav-fix #ic-main-navbar {
 /*---Navbar Dropdown Mobile---*/
 @media screen and (max-width: 1199.98px) {
   .ic-dropdown-li-nav.ic-active > a {
-    color: #9e6d36; }
+    color: #0B6E99; }
     .ic-dropdown-li-nav.ic-active > a i {
       -webkit-transform: rotate(180deg);
       -moz-transform: rotate(180deg);
@@ -1114,7 +1114,7 @@ body.ic-nav-fix #ic-main-navbar {
     background: transparent !important; }
     .navbar-toggler:hover .icon-bar {
       width: 22px !important;
-      background-color: #9e6d36; }
+      background-color: #0B6E99; }
   .navbar-toggler .icon-bar {
     -moz-transition: all 0.2s ease-out;
     -o-transition: all 0.2s ease-out;
@@ -1201,7 +1201,7 @@ body.ic-nav-fix #ic-main-navbar {
       background: -o-linear-gradient(left, rgba(158, 109, 54, 0.7) 0%, rgba(156, 144, 38, 0) 75%);
       background: -ms-linear-gradient(left, rgba(158, 109, 54, 0.7) 0%, rgba(156, 144, 38, 0) 75%);
       background: linear-gradient(to right, rgba(158, 109, 54, 0.7) 0%, rgba(156, 144, 38, 0) 75%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e6d36', endColorstr='#9c9026', GradientType=1); }
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0B6E99', endColorstr='#9c9026', GradientType=1); }
     #ic-slider .slider-item-inner h3,
     #ic-slider .slider-item-inner .ic-b-text,
     #ic-slider .slider-item-inner .ic-btn-t,
@@ -1244,11 +1244,11 @@ body.ic-nav-fix #ic-main-navbar {
       display: inline-block;
       margin: 0; }
       #ic-slider .slick-dots li.slick-active button {
-        background-color: #9e6d36; }
+        background-color: #0B6E99; }
       #ic-slider .slick-dots li button {
         background: #c69749;
         color: #c69749;
-        border: 1px solid #9e6d36;
+        border: 1px solid #0B6E99;
         border-radius: 50%;
         width: 14px;
         height: 14px;
@@ -1298,7 +1298,7 @@ body.ic-nav-fix #ic-main-navbar {
       text-align: center;
       cursor: pointer; }
       #ic-slider .slick-arrow i:hover {
-        color: #9e6d36; }
+        color: #0B6E99; }
       @media only screen and (max-width: 1499.98px) and (min-width: 1200px) {
         #ic-slider .slick-arrow i {
           font-size: 45px; } }
@@ -1367,7 +1367,7 @@ body.ic-nav-fix #ic-main-navbar {
       -o-transition: all 0.2s ease;
       transition: all 0.2s ease; }
       .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-icon i {
-        color: #9e6d36;
+        color: #0B6E99;
         font-size: 36px;
         -webkit-transition: all 0.2s ease;
         -moz-transition: all 0.2s ease;
@@ -1378,12 +1378,12 @@ body.ic-nav-fix #ic-main-navbar {
       margin-left: 100px;
       margin-top: -3px; }
       .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-text h4 {
-        color: #9e6d36;
+        color: #0B6E99;
         margin-bottom: 12px; }
     .ic-experience-lawyer-content .ic-content-col .ic-single-feature:not(:last-child) {
       margin-bottom: 35px; }
     .ic-experience-lawyer-content .ic-content-col .ic-single-feature:hover .ic-icon {
-      background-color: #9e6d36; }
+      background-color: #0B6E99; }
       .ic-experience-lawyer-content .ic-content-col .ic-single-feature:hover .ic-icon i {
         color: #fff; }
 
@@ -1468,7 +1468,7 @@ section#ic-about-us .ic-btn-t {
         font-family: 'lato', sans-serif; }
       .ic-feedback-slider .ic-single-feedback .ic-feedback-person .ic-text p {
         font-size: 14px;
-        color: #9e6d36;
+        color: #0B6E99;
         text-transform: capitalize; }
   .ic-feedback-slider ul.slick-dots {
     text-align: center;
@@ -1479,11 +1479,11 @@ section#ic-about-us .ic-btn-t {
       display: inline-block;
       height: 12px;
       width: 12px;
-      border: 1px solid #9e6d36;
+      border: 1px solid #0B6E99;
       margin-right: 8px;
       cursor: pointer; }
       .ic-feedback-slider ul.slick-dots li.slick-active {
-        background-color: #9e6d36; }
+        background-color: #0B6E99; }
       .ic-feedback-slider ul.slick-dots li button {
         display: none; }
 
@@ -1585,7 +1585,7 @@ section#ic-about-us .ic-btn-t {
       font-size: 30px;
       color: #ededed; }
     .ic-latest-news .slick-arrow:hover i {
-      background-color: #9e6d36; }
+      background-color: #0B6E99; }
   .ic-latest-news .slick-prev-div {
     left: 0; }
   .ic-latest-news .slick-next-div {
@@ -1616,9 +1616,9 @@ section#ic-about-us .ic-btn-t {
   .ic-single-news .ic-post .ic-post-single span {
     font-size: 14px; }
     .ic-single-news .ic-post .ic-post-single span:first-child {
-      color: #9e6d36; }
+      color: #0B6E99; }
     .ic-single-news .ic-post .ic-post-single span a {
-      color: #9e6d36; }
+      color: #0B6E99; }
       .ic-single-news .ic-post .ic-post-single span a:hover {
         text-decoration: underline !important; }
 .ic-single-news .ic-bottom-content h4 {
@@ -1626,7 +1626,7 @@ section#ic-about-us .ic-btn-t {
   .ic-single-news .ic-bottom-content h4 a {
     color: inherit; }
     .ic-single-news .ic-bottom-content h4 a:hover {
-      color: #9e6d36; }
+      color: #0B6E99; }
 .ic-single-news .ic-bottom-content p {
   margin-bottom: 8px; }
 .ic-single-news .ic-bottom-content .ic-post-btn {
@@ -1634,13 +1634,13 @@ section#ic-about-us .ic-btn-t {
   font-size: 16px;
   font-weight: bold; }
   .ic-single-news .ic-bottom-content .ic-post-btn:hover {
-    color: #9e6d36; }
+    color: #0B6E99; }
 .ic-single-news:hover .ic-news-img-bg a img {
   transform: scale(1.1);
   opacity: .7; }
 
 .ic-left-4-col .ic-left-link-list.ic-two > ul > li > a:hover {
-  color: #9e6d36;
+  color: #0B6E99;
   text-decoration: none !important; }
 .ic-left-4-col .ic-left-link-list.ic-two > ul > li ul {
   padding-left: 35px; }
@@ -1651,7 +1651,7 @@ section#ic-about-us .ic-btn-t {
 .ic-dropdown-li .ic-dropdown-menu-ul {
   display: none; }
 .ic-dropdown-li.ic-active > a {
-  color: #9e6d36; }
+  color: #0B6E99; }
 .ic-dropdown-li.ic-active .ic-dropdown-menu-ul {
   display: block; }
 
@@ -1677,7 +1677,7 @@ section#ic-about-us .ic-btn-t {
     .ic-popular-news .ic-single-popular-news .ic-text .ic-date {
       font-size: 12px; }
       .ic-popular-news .ic-single-popular-news .ic-text .ic-date span a {
-        color: #9e6d36; }
+        color: #0B6E99; }
 
 .ic-news h3 {
   font-weight: bold;
@@ -1685,7 +1685,7 @@ section#ic-about-us .ic-btn-t {
 .ic-news .ic-form form {
   margin-top: 0; }
   .ic-news .ic-form form .form-control {
-    color: #9e6d36 !important; }
+    color: #0B6E99 !important; }
     .ic-news .ic-form form .form-control::placeholder {
       color: #222111 !important; }
     .ic-news .ic-form form .form-control:-ms-input-placeholder {
@@ -1721,7 +1721,7 @@ section#ic-about-us .ic-btn-t {
       .ic-news .ic-tag-share .ic-social-text-inline ul.social li a i {
         font-size: 16px; }
 .ic-news .ic-tag-share > p span {
-  color: #9e6d36;
+  color: #0B6E99;
   font-weight: bold; }
 
 /*---News Details Page---*/
@@ -1765,13 +1765,13 @@ section#ic-about-us .ic-btn-t {
       .ic-single-comment .ic-text {
         padding-left: 0px; } }
     .ic-single-comment .ic-text .ic-top-text {
-      color: #9e6d36; }
+      color: #0B6E99; }
       .ic-single-comment .ic-text .ic-top-text .ic-post-date {
         margin-bottom: 10px;
         font-size: 14px;
         display: inline-block; }
         .ic-single-comment .ic-text .ic-top-text .ic-post-date span a {
-          color: #9e6d36; }
+          color: #0B6E99; }
       .ic-single-comment .ic-text .ic-top-text .ic-comment-btn {
         font-size: 14px;
         display: inline-block;
@@ -1785,7 +1785,7 @@ section#ic-about-us .ic-btn-t {
         .ic-single-comment .ic-text .ic-top-text .ic-comment-btn i {
           margin-right: 5px; }
         .ic-single-comment .ic-text .ic-top-text .ic-comment-btn:hover {
-          color: #9e6d36; }
+          color: #0B6E99; }
     .ic-single-comment .ic-text .ic-replay-message {
       margin-top: 20px;
       display: none; }
@@ -1941,7 +1941,7 @@ section#ic-about-us .ic-btn-t {
 .ic-attoryney-person .ic-image {
   margin-bottom: 34px; }
   .ic-attoryney-person .ic-image img {
-    border: 10px solid #9e6d36; }
+    border: 10px solid #0B6E99; }
 .ic-attoryney-person .ic-text h3 {
   font-weight: bold; }
 .ic-attoryney-person .ic-text p {
@@ -1965,16 +1965,16 @@ section#ic-about-us .ic-btn-t {
   margin-bottom: 5px; }
 .ic-attorneys-left-col .ic-contact-left-content .ic-single-block h6 {
   font-weight: 900;
-  color: #9e6d36;
+  color: #0B6E99;
   font-family: "lato", sans-serif; }
 .ic-attorneys-left-col .ic-contact-left-content .ic-single-block p {
   font-size: 14px; }
 .ic-attorneys-left-col ul.social li a {
-  border: 1px solid #9e6d36; }
+  border: 1px solid #0B6E99; }
   .ic-attorneys-left-col ul.social li a i {
-    color: #9e6d36; }
+    color: #0B6E99; }
   .ic-attorneys-left-col ul.social li a:hover {
-    background-color: #9e6d36; }
+    background-color: #0B6E99; }
     .ic-attorneys-left-col ul.social li a:hover i {
       color: #fff; }
 .ic-attorneys-left-col .ic-message-for-h2 {
@@ -2051,8 +2051,8 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
         .ic-single-talented-attorneys .ic-img-box .ic-img-hover ul.social li:not(:last-child) {
           margin-right: 17px; }
         .ic-single-talented-attorneys .ic-img-box .ic-img-hover ul.social li:hover a {
-          background-color: #9e6d36;
-          border: 1px solid #9e6d36; }
+          background-color: #0B6E99;
+          border: 1px solid #0B6E99; }
   .ic-single-talented-attorneys .ic-text {
     margin-top: 36px; }
     .ic-single-talented-attorneys .ic-text h6 a {
@@ -2078,9 +2078,9 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     -ms-transform: perspective(300px) rotatex(0deg);
     transform: perspective(300px) rotatex(0deg); }
   .ic-single-talented-attorneys:hover .ic-text h6 a {
-    color: #9e6d36; }
+    color: #0B6E99; }
   .ic-single-talented-attorneys:hover .ic-text p {
-    color: #9e6d36; }
+    color: #0B6E99; }
 
 /*================================================
     08. Practice Area CSS
@@ -2142,9 +2142,9 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     .ic-single-practice-box:hover .ic-icon-font {
       transform: scaleX(-1); }
       .ic-single-practice-box:hover .ic-icon-font i {
-        color: #9e6d36; }
+        color: #0B6E99; }
     .ic-single-practice-box:hover h4 {
-      color: #9e6d36; }
+      color: #0B6E99; }
 
 .ic-icon-font {
   width: 60px;
@@ -2185,7 +2185,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       -o-transition: all 0.3s ease;
       transition: all 0.3s ease; }
       .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-icon i {
-        color: #9e6d36;
+        color: #0B6E99;
         font-size: 36px;
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
@@ -2196,12 +2196,12 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       margin-left: 100px;
       margin-top: -3px; }
       .ic-experience-lawyer-content .ic-content-col .ic-single-feature .ic-text h4 {
-        color: #9e6d36;
+        color: #0B6E99;
         margin-bottom: 12px; }
     .ic-experience-lawyer-content .ic-content-col .ic-single-feature:not(:last-child) {
       margin-bottom: 35px; }
     .ic-experience-lawyer-content .ic-content-col .ic-single-feature:hover .ic-icon {
-      background-color: #9e6d36; }
+      background-color: #0B6E99; }
       .ic-experience-lawyer-content .ic-content-col .ic-single-feature:hover .ic-icon i {
         color: #fff; }
 
@@ -2216,7 +2216,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     color: #222111;
     font-size: 16px; }
     .ic-left-4-col .ic-left-link-list ul li a.active, .ic-left-4-col .ic-left-link-list ul li a:hover {
-      color: #9e6d36;
+      color: #0B6E99;
       text-decoration: underline !important; }
 
 .ic-right-content h2,
@@ -2240,7 +2240,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     -webkit-font-feature-settings: "liga";
     -webkit-font-smoothing: antialias;
     font-size: 24px;
-    color: #9e6d36; }
+    color: #0B6E99; }
   .ic-right-content blockquote::before {
     content: "\efcd";
     position: absolute;
@@ -2257,7 +2257,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
   -ms-align-items: center;
   align-items: center; }
   .ic-social-text-inline h6 {
-    color: #9e6d36; }
+    color: #0B6E99; }
   .ic-social-text-inline ul.social {
     margin-left: 55px; }
     .ic-social-text-inline ul.social li a {
@@ -2265,7 +2265,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       .ic-social-text-inline ul.social li a i {
         color: #222111; }
       .ic-social-text-inline ul.social li a:hover i {
-        color: #9e6d36; }
+        color: #0B6E99; }
 
 /*================================================
     09. Q&A CSS
@@ -2318,10 +2318,10 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
   -webkit-box-shadow: 1px 1.732px 7.68px 0.32px rgba(34, 33, 17, 0.05);
   -moz-box-shadow: 1px 1.732px 7.68px 0.32px rgba(34, 33, 17, 0.05); }
   .ic-accordion .card.header-s .card-header h6 button {
-    color: #9e6d36; }
+    color: #0B6E99; }
     .ic-accordion .card.header-s .card-header h6 button .icofont-minus {
       display: block;
-      color: #9e6d36; }
+      color: #0B6E99; }
     .ic-accordion .card.header-s .card-header h6 button .icofont-plus {
       display: none; }
 
@@ -2405,7 +2405,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
   #ic-error-page .ic-btn-g {
     margin-bottom: 40px; }
   #ic-error-page .ic-content-text .ic-et-text {
-    color: #9e6d36;
+    color: #0B6E99;
     font-weight: 900; }
   #ic-error-page .ic-content-text .ic-numeric {
     font-family: "lato", sans-serif;
@@ -2472,10 +2472,10 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       height: 40px;
       border: 0; }
       #ic-error-page ul.social li a i {
-        color: #9e6d36;
+        color: #0B6E99;
         font-size: 25px; }
       #ic-error-page ul.social li a:hover {
-        background-color: #9e6d36; }
+        background-color: #0B6E99; }
         #ic-error-page ul.social li a:hover i {
           color: #fff; }
     #ic-error-page ul.social li:not(:last-child) {
@@ -2525,16 +2525,16 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     #ic-comming-soon .ic-left-col-comming-soon .ic-h2-two {
       margin-bottom: 27px; }
     #ic-comming-soon .ic-left-col-comming-soon h6 {
-      color: #9e6d36; }
+      color: #0B6E99; }
     #ic-comming-soon .ic-left-col-comming-soon ul.social li a {
       width: 40px;
       height: 40px;
       border: 0; }
       #ic-comming-soon .ic-left-col-comming-soon ul.social li a i {
-        color: #9e6d36;
+        color: #0B6E99;
         font-size: 25px; }
       #ic-comming-soon .ic-left-col-comming-soon ul.social li a:hover {
-        background-color: #9e6d36; }
+        background-color: #0B6E99; }
         #ic-comming-soon .ic-left-col-comming-soon ul.social li a:hover i {
           color: #fff; }
   #ic-comming-soon .ic-bottom-section {
@@ -2551,7 +2551,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       font-family: auto;
       font-weight: bold;
       font-size: 48px;
-      color: #9e6d36;
+      color: #0B6E99;
       margin-bottom: 6px; }
     .ic-time-day .ic-single-time-day h6 {
       margin-bottom: 0; }
@@ -2566,7 +2566,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     -ms-flex-basis: 41%;
     flex-basis: 41%;
     color: #fff;
-    background-color: #9e6d36;
+    background-color: #0B6E99;
     border: 0;
     font-size: 16px;
     font-weight: bold;
@@ -2687,9 +2687,9 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
     height: 50px; }
     .ic-contact-left-content .ic-single-block .ic-icon i {
       font-size: 28px;
-      color: #9e6d36; }
+      color: #0B6E99; }
   .ic-contact-left-content .ic-single-block h4 {
-    color: #9e6d36;
+    color: #0B6E99;
     margin-bottom: 12px; }
 
 #map {
@@ -2722,13 +2722,13 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       #ic-top-footer .ic-footer-col ul li:not(:last-child) {
         margin-bottom: 10px; }
       #ic-top-footer .ic-footer-col ul li:hover a {
-        color: #9e6d36; }
+        color: #0B6E99; }
   #ic-top-footer .ic-footer-left-col > a > img {
     margin-bottom: 35px; }
   #ic-top-footer .ic-footer-left-col ul {
     margin-top: 33px; }
     #ic-top-footer .ic-footer-left-col ul li:hover a {
-      color: #9e6d36; }
+      color: #0B6E99; }
       #ic-top-footer .ic-footer-left-col ul li:hover a::after {
         color: #fff; }
   #ic-top-footer .ic-footer-left-col .ic-social-ul-text li:not(:last-child) a::after {
@@ -2744,7 +2744,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
 .ic-form form {
   margin-top: 45px; }
   .ic-form form .form-control {
-    border: 1px solid #9e6d36;
+    border: 1px solid #0B6E99;
     color: #fff !important; }
     .ic-form form .form-control::placeholder {
       color: #fff !important;
@@ -2763,7 +2763,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
       /* Microsoft Edge */
       color: #fff !important; }
   .ic-form form .ic-btn-search {
-    background-color: #9e6d36;
+    background-color: #0B6E99;
     min-width: 70px;
     font-size: 24px; }
     .ic-form form .ic-btn-search:hover {
@@ -2781,7 +2781,7 @@ section#ic-talented-attorneys .ic-single-talented-attorneys {
   #ic-bottom-footer p > a {
     color: #fff; }
     #ic-bottom-footer p > a:hover {
-      color: #9e6d36; }
+      color: #0B6E99; }
 
 /*# sourceMappingURL=style.css.map */
 

@@ -124,7 +124,7 @@
 
     .ic-nav-ul li a.active,
     .ic-nav-ul li a:hover {
-        color: #9e6d36 !important;
+        color: #0B6E99 !important;
     }
 }
 
@@ -217,6 +217,7 @@
         right: -500px;
         height: 100vh;
         background: #9e6d36;
+        /* sidebar rengi */
         padding: 60px 15px 30px 30px;
         z-index: 1110;
         min-width: 275px;
@@ -563,7 +564,7 @@
     }
 
     .ic-contact-left-content .ic-single-block h4 {
-        color: #9e6d36;
+        color: #0B6E99;
         margin-bottom: 6px;
     }
 
@@ -903,7 +904,7 @@
     }
 
     #ic-error-page ul.social li a i {
-        color: #9e6d36;
+        color: #0B6E99;
         font-size: 20px;
     }
 
